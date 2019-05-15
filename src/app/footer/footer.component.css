@@ -1,0 +1,93 @@
+.row h1:hover{
+    color: #3d84c5;
+}
+.layoutfooter{
+    border-top: 5px solid #3d84c5;
+}
+.layoutfooter{
+  
+    background-color: white;
+}
+.footeritem{
+    
+    float: left;
+}
+.footeritem ul li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    
+}
+.footerleft{
+   text-align: left;
+   vertical-align: middle;
+   padding-top: 50px;
+   color: black;
+
+}
+.footerleft ul li{
+    /* justify-content: center; */
+    text-align: left;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+.footerleft ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footerleft ul li a:hover{
+    color: #00a9ee;
+}
+.footeritem ul li i:hover{
+    color: #00a9ee;
+}
+.footeritem h3:hover{
+    color: #00a9ee;
+}
+
+.logofooter{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.rightlogofooter img{
+    height: 120px;
+    width: 225px;
+    text-emphasis: right;
+}
+#callnumfooter i,a{
+    color: white;
+    text-decoration: none;
+
+}
+.rightlogofooter{
+    text-align: right;
+}
+.fa-phone:before{
+    color: white;
+}
+#callnumfooter{
+    margin-top: 0px;
+    text-align: right;
+    font-size: 31px;
+    margin-right: 20px;
+
+}
+.ourservice ul{
+    margin-top: 30px;
+}
+.contactinfo h1{
+    padding-top: 50px;
+}
+#callnumfooter a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#callnumfooter a:hover{
+    color: #00a9ee;
+}
+#callnumfooter i:hover{
+    color: #00a9ee;
+}

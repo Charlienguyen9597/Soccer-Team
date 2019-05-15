@@ -1,0 +1,41 @@
+.imagesection{
+    padding-top:15px;
+    
+}
+.textBtn{
+
+}
+.imageoutside{
+    background-image: url(../../../assets/img/nature-hd-background-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.newandbutton{
+    float: left;
+}
+.newandbutton h6{
+    /* change color of text */
+    color: white;
+    margin: auto;
+    padding-top: 88px;
+    text-transform: uppercase;
+    padding-bottom: 88px;
+}
+.readmore{
+    justify-content: center;
+}
+.buttonONright{
+    display: flex;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+.buttonright{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+/* change color of button when you are hover */
+.buttonONright button:hover{
+    background: red;
+}

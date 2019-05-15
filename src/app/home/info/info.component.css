@@ -1,0 +1,17 @@
+.reviewlayout{
+    float: left;   
+}
+.review{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.left2{
+    background-image: url('../../../assets/img/download.jpeg');
+    color: white;
+    text-align: center;
+
+}
+.left2 h3{
+    margin-top:30px;
+}

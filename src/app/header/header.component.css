@@ -1,0 +1,55 @@
+header{
+    border-top: 5px solid #3d84c5;
+    border-bottom: 5px solid #3d84c5;
+
+}
+#topmenu{
+    /* make list on line */
+    display: inherit;
+    /* delete cycle beside of text */
+    list-style: none;
+}
+.row ul{
+    margin-top: 48px;
+}
+.row ul li{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.row ul li:hover{
+    /* when  click on li tag will be appare a color 
+    to change color */
+    color: #3d84c5;
+}
+.leftlogo img{
+    margin-top: 0px;
+}
+/* this one is reponsive for small screeen */
+.leftlogo{
+    text-align: center;
+}
+.righttop a{
+    /* delete under line on li tag */
+    text-decoration: none;
+    color: #3d84c5;
+    font-size: 22px;
+}
+.righttop i{
+    font-size: 22px;
+}
+#topmenu li a{
+    text-decoration: none;
+}
+.righttopdiv{
+    /* make text on center */
+    margin: auto;
+}
+#navbarSupportedContent{
+    z-index: 1000;
+}
+.righttopdiv p{
+    text-align: center;
+}
+#topmenu li a:hover{
+    color: #00a9ee;
+}

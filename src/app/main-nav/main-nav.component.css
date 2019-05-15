@@ -1,0 +1,57 @@
+/* start nav css */
+.nav{
+   
+    /* this is background color of nav */
+    background: #0d1f33;
+}
+.connav ul{
+    /* list style will be delete cycle  */
+    list-style: none;
+    position: relative;
+    /* put cover of dropdown on carousel */
+    z-index: 1000;
+}
+.connav ul li{
+    /* make all of list ul on the same line */
+    float: left;
+    margin-right: 30px;
+}
+.connav ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.connav ul li a:hover, .dropdown:hover .dropbtn{
+    background-color: #3d84c5;
+}
+.connav ul li.dropdown{
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #AAAAAA;
+    /* make bottom border line */
+    border-bottom: 1px solid #FF851B;
+    /* make top border line */
+    border-top: 1px solid #FF851B;
+    /* make right border line */
+    border-right: 1px solid #FF851B;
+    /* make left border line */
+    border-left: 1px solid #FF851B;
+    
+}
+.dropdown-content a {
+    /* make middle bottom */
+    border-bottom: 1px solid #FF851B;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}

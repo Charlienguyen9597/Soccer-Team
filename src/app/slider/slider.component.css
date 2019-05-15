@@ -1,0 +1,21 @@
+.forminput{
+    float: left;
+    position: fixed;
+    right: 0;
+    padding-top: 15px;
+    z-index: 1000;
+    float: left;
+    padding-right: 150px;
+   
+}
+.carousel-item img{
+    float: left;
+    position: fixed;
+
+}
+#carouselIndicators{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
