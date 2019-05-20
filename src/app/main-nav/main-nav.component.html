@@ -1,58 +1,78 @@
 <div class="container-fluid nav sticky-top">
-  <div class="container connav">
-          <nav class="navbar navbar-expand-lg navbar-light ">
-                  <a class="navbar-brand text-success" routerLink="home">LaTrobe Live Score</a>
-                  <button class="navbar-toggler bg-success" type="button" data-toggle="collapse"
-                          data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent"
-                          aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                  </button>
+        <div class="container connav">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                        <a class="navbar-brand text-success" routerLink="home">LaTrobe Live Score</a>
+                        <button class="navbar-toggler bg-success" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent2">
-                          <ul class="navbar-nav mr-auto">
-                                  <li class="nav-item active">
-                                          <a class="nav-link text-white" routerLink="home">Home</a>
-                                  </li>
-                                  <li class="nav-item">
-                                          <a class="nav-link text-white" routerLink="about-us" >About Us</a>
-                                  </li>
-                                  <li ngbDropdown class="nav-item dropdown">
-                                          <a ngbDropdownToggle class="nav-link dropdown-toggle text-white"
-                                                  id="navbarDropdown" role="button" data-toggle="dropdown"
-                                                  aria-haspopup="true" aria-expanded="false">
-                                                  Prediction
-                                          </a>
-                                          <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                  <a class="dropdown-item text-dark" routerLink="/next-game"  >
-                                                                   Next Game
-                                                          </a>
-                                                  <div class="dropdown-divider"></div>
-                                                  <a class="dropdown-item text-dark" routerLink="game-played" >Game Played
-                                                          </a>
-                                                  <div class="dropdown-divider"></div>
-                                                  <a class="dropdown-item text-dark" routerLink="next-five-match">Next 5 Matchs
-                                                          </a>
-                                                          <div class="dropdown-divider"></div>
-                                                  <a class="dropdown-item text-dark" routerLink="result-so-far" >Result So Far
-                                                          </a>
-                                                          <div class="dropdown-divider"></div>
-                                                  <a class="dropdown-item text-dark" routerLink="head-to-head">Head To Head
-                                                          </a>
-                                                          <div class="dropdown-divider"></div>
-                                                  <a class="dropdown-item text-dark" routerLink="team-detail" >Team Detail
-                                                          </a>
-                                          </div>
-                                  </li>
-                                  <li class="nav-item">
-                                          <a class="nav-link  text-white" routerLink="contact-us" >Contact</a>
-                                  </li>
-                          </ul>
-                          <form class="form-inline my-2 my-lg-0">
-                                  <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                          aria-label="Search">
-                                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                          </form>
-                  </div>
-          </nav>
-  </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                                <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                                <a class="nav-link text-white" routerLink="home">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link text-white" routerLink="about-us">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link text-white" routerLink="/teams">Teams</a>
+                                        </li>
+                                        <!-- <li ngbDropdown class="nav-item dropdown">
+                                                <a ngbDropdownToggle class="nav-link dropdown-toggle text-white"
+                                                        id="navbarDropdown" role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        Prediction
+                                                </a>
+                                                <div ngbDropdownMenu class="dropdown-menu"
+                                                        aria-labelledby="navbarDropdown">
+                                                        <a class="dropdown-item text-dark" routerLink="/next-game">
+                                                                Next Game
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark" routerLink="game-played">Game
+                                                                Played
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark"
+                                                                routerLink="next-five-match">Next 5 Matchs
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark"
+                                                                routerLink="result-so-far">Result So Far
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark"
+                                                                routerLink="head-to-head">Head To Head
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark" routerLink="list-team"> List Team
+                                                                
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark" routerLink="team-detail">Team
+                                                                Detail
+                                                        </a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item text-dark" routerLink="sources">Sources
+                                                        </a>
+                                                </div>
+                                        </li> -->
+                                        <li class="nav-item">
+                                                        <a class="nav-link text-white" routerLink="sources">Source</a>
+                                                </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link  text-white" routerLink="contact-us">Contact</a>
+                                        </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                        <button class="btn btn-outline-success my-2 my-sm-0"
+                                                type="submit">Search</button>
+                                </form>
+                        </div>
+                </nav>
+        </div>
 </div>

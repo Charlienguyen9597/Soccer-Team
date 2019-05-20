@@ -1,5 +1,5 @@
 <div class="container">
-    <a class="btn btn-primary" routerLink="/teams/{{id}}"><</a>
+    <a class="btn btn-primary" routerLink="/teams/{{id}}/head-to-head"><</a>
     <h1 class="text-center">Results</h1>
     <table class="table table-striped sourcehover">
       <tr>
@@ -19,6 +19,9 @@
         <td>{{tip.tip}}</td>
         <td>{{tip.confidence}}</td>
         <td>{{tip.date}}</td>
+      </tr>
+      <tr *ngIf="error">
+        <td scope="row" colspan="7">{{error}}</td>
       </tr>
     </table>
   </div>

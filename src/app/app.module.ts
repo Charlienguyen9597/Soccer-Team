@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NextGameComponent } from './next-game/next-game.component';
@@ -33,10 +35,13 @@ import { IframeComponent } from './contact-us/location/iframe/iframe.component';
 import { AddressComponent } from './contact-us/location/address/address.component';
 import { TestinfoComponent } from './contact-us/testimonial/testinfo/testinfo.component';
 import { TestiComponent } from './contact-us/testimonial/testi/testi.component';
-import { ParrentComponent } from './team-detail/parrent/parrent.component';
-import { ChildComponent } from './team-detail/child/child.component';
 import { from } from 'rxjs';
-import { TeamService } from './team-detail/team.service';
+import { ListTeamComponent } from './list-team/list-team.component';
+import { SourcesComponent } from './sources/sources.component';
+import { DetailParentComponent } from './team-detail/detail-parent/detail-parent.component';
+import { DetailChildComponent } from './team-detail/detail-child/detail-child.component';
+import { DataServiceService } from './data-service.service';
+import { DisplayHeadToHeadComponent } from './display-head-to-head/display-head-to-head.component';
 
 
 
@@ -69,13 +74,17 @@ import { TeamService } from './team-detail/team.service';
     AddressComponent,
     TestinfoComponent,
     TestiComponent,
-    ParrentComponent,
-    ChildComponent
-   
+    ListTeamComponent,
+    SourcesComponent,
+    DetailParentComponent,
+    DetailChildComponent,
+    DisplayHeadToHeadComponent,   
   ],
   // must to be import RouterModule
   imports: [
     BrowserModule,
+    // import HttpClientModule after BrowserModule.
+    HttpClientModule,
     AppRoutingModule, 
     LayoutModule, 
     MatToolbarModule, 
@@ -88,7 +97,7 @@ import { TeamService } from './team-detail/team.service';
 
      
   ],
-  providers: [TeamService],
+  providers: [DataServiceService],
   // this is show on stART UP PAGE
   bootstrap: [AppComponent]
 })

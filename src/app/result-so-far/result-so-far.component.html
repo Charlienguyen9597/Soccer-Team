@@ -1,3 +1,24 @@
-<p>
-  result-so-far works!
-</p>
+<div class="container">
+    <a class="btn btn-primary" routerLink="/teams/{{id}}"><</a>
+    <h1 class="text-center">Results</h1>
+    <table class="table table-striped sourcehover">
+      <tr>
+        <th scope="col">Team A ID</th>
+        <th >Team A</th>
+        <th>Team B ID</th>
+        <th>Team B</th>
+        <th>Win Prediction</th>
+        <th>Confidence</th>
+        <th>Date And Time</th>
+      </tr>
+      <tr *ngFor="let tip of nonCompletes">
+        <td scope="row">{{tip.ateamid}}</td>
+        <td >{{tip.ateam}}</td>
+        <td>{{tip.hteamid}}</td>
+        <td>{{tip.hteam}}</td>
+        <td>{{tip.tip}}</td>
+        <td>{{tip.confidence}}</td>
+        <td>{{tip.date}}</td>
+      </tr>
+    </table>
+  </div>

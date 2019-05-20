@@ -1,7 +1,4 @@
 .sourcehover tr:hover td{
     background-color: green;
     cursor: pointer;
-  }
-  table, th, td {
-    border: 1px solid black;
-  }
+}

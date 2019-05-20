@@ -1,0 +1,16 @@
+<div class="container bt-2">
+  <h2 class="text-center">List of Sources in 2019</h2>
+  <table class="table table-striped sourcehover">
+    <tr>
+      <th class="text-center">Source Id</th>
+      <th class="text-center">Name</th>
+      <th class="text-center">Source Url</th>
+    </tr>
+    <tr *ngFor="let source of sources ">
+      <td class="text-center">{{source.id}}</td>
+      <td class="text-center">{{source.name}}</td>
+      <td class="text-center">{{source.url}}</td>
+
+    </tr>
+  </table>
+</div>

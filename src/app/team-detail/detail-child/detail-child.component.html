@@ -1,0 +1,69 @@
+<div class="container" id="ChildDiv">
+  <div class="container">
+    <h2>Here Is Detail Of Your Favories Team</h2>
+    <table class="table table-striped ">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Logo</th>
+      </tr>
+      <tr>
+        <td>{{team.id}}</td>
+        <td>{{ team.name | uppercase }} </td>
+        <td><img src="https://squiggle.com.au{{team.logo}}" /></td>
+
+      </tr>
+    </table>
+  </div>
+  <h2>Please Select One Of The Flowing Option To See More Detail Your Team</h2>
+  <table class="table table-striped ">
+    <tr>
+      <th>Result So Far</th>
+      <th>Head to head</th>
+      <th>Game played</th>
+      <th>Next Game</th>
+      <th> Next Five Match</th>
+    </tr>
+    <tr>
+      <td><a class="btn btn-success" routerLink="/teams/{{team.id}}/results">
+          Results so far
+        </a></td>
+      <td><a class="btn btn-success " routerLink="/teams/{{team.id}}/head-to-head">
+          Head to head
+        </a></td>
+      <td><a class="btn btn-success " routerLink="/teams/{{team.id}}/game-played">
+          Game played
+        </a></td>
+      <td><a class="btn btn-success " routerLink="/teams/{{team.id}}/next-game">
+          Next Game
+        </a></td>
+      <td><a class="btn btn-success" routerLink="/teams/{{team.id}}/next-five-match">
+          Next Five Match
+        </a></td>
+    </tr>
+  </table>
+  <br>
+  <h1>News:Plans revealed for new AFLB league to begin in 2020
+  </h1>
+  <p>Today in breaking news I can exclusively reveal the AFL is working on a secret plan to start a new professional
+    Australian Rules football league ahead of the 2020 season.
+    We all know the AFL isn’t one to sit idly by when it comes to the future of Australian rules football. I can
+    exclusively reveal The AFL’s plans for a new top-level football league are set to be endorsed at the next meeting of
+    the AFL Commission to allow all 18 AFL clubs enough time to prepare ahead of the first bounce of AFLB in May 2020.
+
+    What makes AFLB different to the existing AFL competition? I can exclusively reveal the AFL plans to make critical
+    changes both on and off the field for AFLB, with strict guidelines in place to ensure the objectives of the league
+    are met.</p>
+  <p>The changes are likely to be significant if the AFL’s full plans for AFLB are signed off by the AFL Commission. For
+    instance, I can exclusively reveal clubs will be required to nominate a position for each player on the team sheet.
+    I can exclusively reveal clubs will line up with two designated ruckman every week, who will be the only players
+    allowed to contest a ruck. Other designated positions include full forward, full back, ruck-rover, goalsneak and
+    designated hitter. It isn’t yet clear what that last position means, but all will be revealed later today.</p>
+  <p>The positions are important because I can exclusively reveal AFLB will have strict rules regarding player
+    positioning. Each team’s designated full forward, for example, will be required to stand in the goal square and
+    cannot leave the box for the entire game. Similar restrictions will be in place for three forwards (forward 50),
+    three defenders (back 50) and the fullback position (defensive goal square), as well as the centre and two wingers.
+
+  </p>
+
+</div>

@@ -1,0 +1,20 @@
+<div class="container bt-2" *ngIf="teams && teams.length">
+  <h2 class="text-center">Wellcome to list of Team in 2019</h2>
+  <h3 class="text-center">There are {{teams.length}} Team in this season</h3>
+  <table class="table table-striped sourcehover">
+    <tr>
+      <th scope="col">Team ID</th>
+      <th class="text-center">Team</th>
+      <th></th>
+    </tr>
+    <tr *ngFor="let team of teams">
+      <td scope="row">{{team.id}}</td>
+      <td class="text-center">{{team.name}}</td>
+      <td>
+        <a class="btn btn-primary" routerLink="/teams/{{team.id}}">
+          Details
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
