@@ -30,7 +30,7 @@
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "express": "^4.17.0",
-    "node-forge": "^0.8.2",
+    "node-forge": "^0.10.0",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
